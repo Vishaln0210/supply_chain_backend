@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3306/supplychain
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  flyway:
+    enabled: true
